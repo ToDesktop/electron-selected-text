@@ -1,5 +1,5 @@
 import { clipboard, globalShortcut } from "electron";
-import { keyTap } from "robotjs";
+import { keyTap } from "@todesktop/robotjs-prebuild";
 
 /**
  * Gets selected text by synthesizing the keyboard shortcut
