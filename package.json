@@ -8,7 +8,10 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "release:minor": "npm version minor && npm publish",
+		"release:major": "npm version major && npm publish",
+		"publish": "npm publish"
   },
   "repository": {
     "type": "git",
