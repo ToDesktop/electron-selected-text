@@ -38,6 +38,6 @@
     "typescript": "^4.1.2"
   },
   "dependencies": {
-    "@todesktop/robotjs-prebuild": "^0.6.12"
+    "@todesktop/robotjs-prebuild": "^0.6.13"
   }
 }
