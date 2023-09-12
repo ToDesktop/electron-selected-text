@@ -1,6 +1,6 @@
 {
   "name": "@todesktop/electron-selected-text-prebuild",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "description": "a utility to get selected text for Electron apps",
   "main": "lib/index.js",
   "files": [
@@ -10,8 +10,8 @@
     "build": "tsc",
     "prepare": "npm run build",
     "release:minor": "npm version minor && npm publish",
-		"release:major": "npm version major && npm publish",
-		"publish": "npm publish"
+    "release:major": "npm version major && npm publish",
+    "publish": "npm publish"
   },
   "repository": {
     "type": "git",
@@ -38,6 +38,6 @@
     "typescript": "^4.1.2"
   },
   "dependencies": {
-    "@todesktop/robotjs-prebuild": "^0.6.16"
+    "@todesktop/robotjs-prebuild": "^0.6.17"
   }
 }
