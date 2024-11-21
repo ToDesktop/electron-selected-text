@@ -1,6 +1,6 @@
 {
   "name": "@todesktop/electron-selected-text-prebuild",
-  "version": "1.1.14",
+  "version": "1.1.15",
   "description": "a utility to get selected text for Electron apps",
   "main": "lib/index.js",
   "files": [
@@ -38,6 +38,6 @@
     "typescript": "^4.1.2"
   },
   "dependencies": {
-    "@todesktop/robotjs-prebuild": "^0.6.19"
+    "@todesktop/robotjs-prebuild": "^0.6.21"
   }
 }
